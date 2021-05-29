@@ -1,0 +1,229 @@
+/* review page */
+
+.reviews {
+  column-count: 2;
+  column-gap: 26px;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+.reviews__item {
+  margin-bottom: 20px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px 35px 30px;
+  background: #f4f5f5;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2e77a4;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.review__user::after {
+  content: url(/img/vk-blue-1.png);
+  height: 30px;
+  margin-left: 10px;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 12px 20px;
+  border-radius: 50px;
+  background: #e7e7e7;
+}
+
+.tag--bg--green {
+  background: #b9eae4;
+}
+
+.review__tag-item {
+  display: inline-block;
+}
+
+.review__title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1a1b1e;
+  margin-bottom: 23px;
+  line-height: 1.4;
+  max-width: 480px;
+}
+
+.review__content-text {
+  margin-bottom: 43px;
+  font-size: 16px;
+  color: #818181;
+  line-height: 1.69;
+}
+
+.review__date {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1b1e;
+}
+
+.separator {
+  background: #17191c url(/img/separator.png) right 20% bottom no-repeat;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #17191c;
+}
+
+.separator__content {
+  max-width: 40%;
+}
+
+.separator__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #ffffff;
+}
+.inner-section.inner-section--bg-grey {
+  background-color: #f4f5f5;
+}
+.inner-section--reviews {
+  padding-top: 70px;
+}
+.inner-section__title--reviews {
+  margin-bottom: 60px;
+}
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px !important;
+  border: none;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  line-height: 1;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.form__input::-webkit-input-placeholder {
+  opacity: 1;
+  color: #1a1b1e;
+}
+.form__input::-moz-placeholder {
+  opacity: 1;
+  color: #1a1b1e;
+}
+.form__input:-ms-input-placeholder {
+  opacity: 1;
+  color: #1a1b1e;
+}
+.form__input:-moz-placeholder {
+  opacity: 1;
+  color: #1a1b1e;
+}
+.form__input:hover {
+  border: 1px solid #8f00ff;
+}
+
+.form__input:last-child {
+  margin-right: 0px;
+}
+
+.form__input--textarea {
+  height: 235px;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.form__controls-title {
+  width: 38%;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1a1b1e;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;padding: 0;
+}
+.controls__item {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.controls__item .tag {
+  padding: 12px 16px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #b9eae4;
+}
+.controls__checkbox {
+  display: none;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  margin-right: 17px;
+  padding: 17px 33px;
+}
+
+.form__button:last-child {
+  margin-right: 0;
+}
+
+.button--color--black {
+  background: #2b2b2b;
+}
+
+.button--color--black:hover {
+  background: #8f00ff;
+  transition: 1s;
+}
