@@ -40,6 +40,7 @@
 .social__item {
     display: block;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 .social__item img {
@@ -49,6 +50,31 @@
 
 .social__item:last-child {
     margin-right: 0;
+}
+
+.social__link{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url(/img/sprites.png);
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.social__link:hover{
+    opacity: 1;
+}
+.social__link--tg{
+    background-position: -10px -10px;
+}
+.social__link--vk{
+    background-position: -66px -10px;
+}
+.social__link--fb{
+    background-position: -10px -66px;
+}
+.social__link--inst{
+    background-position: -66px -66px;
 }
 
 .footer__info{
